@@ -57,9 +57,9 @@ This is a simple Flask web application that demonstrates basic routing and path 
 1. Python 3.x
 2. Flask
 
-## Demo
+## To view the output, either follow the link below or open the OUtput.gif file.
 
-![Demo GIF](./basic_with_code/OUtput.gif)
+https://github.com/Ranjeet-Kumar60/Flask-from-scratch/blob/main/basic_with_code/OUtput.gif
 
 ## How to Run the App
 
