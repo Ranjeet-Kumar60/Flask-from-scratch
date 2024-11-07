@@ -65,7 +65,7 @@ Markdown Preview Enhanced## Requirements
 
 https://github.com/Ranjeet-Kumar60/Flask-from-scratch/blob/main/basic_with_code/OUtput.gif
 
-Markdown Preview Enhanced## How to Run the App
+## How to Run the App
 
 1. Clone this repository to your local machine:
    ```bash
