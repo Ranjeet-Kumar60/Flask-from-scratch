@@ -57,9 +57,13 @@ Markdown Preview Enhanced## Requirements
 1. Python 3.x
 2. Flask
 
+<<<<<<< HEAD
 Markdown Preview Enhanced## Demo
+=======
+## To view the output, either follow the link below or open the OUtput.gif file.
+>>>>>>> 190df2b08565318abe4214371b26c3d80643a92a
 
-![Demo GIF](./basic_with_code/OUtput.gif)
+https://github.com/Ranjeet-Kumar60/Flask-from-scratch/blob/main/basic_with_code/OUtput.gif
 
 Markdown Preview Enhanced## How to Run the App
 
