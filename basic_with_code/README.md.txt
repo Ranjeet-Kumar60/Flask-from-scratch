@@ -1,8 +1,8 @@
-# Flask App Example
+#Markdown Preview Enhanced Flask App Example
 
 This is a simple Flask web application that demonstrates basic routing and path parameters.
 
-## Features
+Markdown Preview Enhanced## Features
 
 - **Home Page**: Displays a welcome message.
 - **About Page**: Displays a simple about message.
@@ -10,7 +10,7 @@ This is a simple Flask web application that demonstrates basic routing and path 
 - **Addition Page**: Accepts an integer as a path parameter and adds 10 to it.
 - **Addition of Two Numbers**: Accepts two integers as path parameters and displays their sum.
 
-## Routes
+Markdown Preview Enhanced## Routes
 
 1. **Home Page**
    - **URL**: `/` or `/home`
@@ -52,17 +52,17 @@ This is a simple Flask web application that demonstrates basic routing and path 
      10 + 20 is 30
      ```
 
-## Requirements
+Markdown Preview Enhanced## Requirements
 
 1. Python 3.x
 2. Flask
 
-## Demo
+Markdown Preview Enhanced## Demo
 
 ![Demo GIF](./basic_with_code/OUtput.gif)
 
-## How to Run the App
+Markdown Preview Enhanced## How to Run the App
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/flask-app.git
+   git clone https://github.com/Ranjeet-Kumar60/Flask-from-scratch.git
