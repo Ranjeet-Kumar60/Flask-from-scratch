@@ -1,4 +1,4 @@
-#Markdown Preview Enhanced Flask App Example
+# Markdown Preview Enhanced Flask App Example
 
 This is a simple Flask web application that demonstrates basic routing and path parameters.
 
