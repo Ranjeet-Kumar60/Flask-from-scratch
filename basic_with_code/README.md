@@ -1,8 +1,8 @@
-# Markdown Preview Enhanced Flask App Example
+# Flask App Example
 
 This is a simple Flask web application that demonstrates basic routing and path parameters.
 
-Markdown Preview Enhanced## Features
+## Features
 
 - **Home Page**: Displays a welcome message.
 - **About Page**: Displays a simple about message.
@@ -10,7 +10,7 @@ Markdown Preview Enhanced## Features
 - **Addition Page**: Accepts an integer as a path parameter and adds 10 to it.
 - **Addition of Two Numbers**: Accepts two integers as path parameters and displays their sum.
 
-Markdown Preview Enhanced## Routes
+## Routes
 
 1. **Home Page**
    - **URL**: `/` or `/home`
@@ -58,10 +58,10 @@ Markdown Preview Enhanced## Requirements
 2. Flask
 
 <<<<<<< HEAD
-Markdown Preview Enhanced## Demo
+## Demo
 =======
 ## To view the output, either follow the link below or open the OUtput.gif file.
->>>>>>> 190df2b08565318abe4214371b26c3d80643a92a
+>>>>>>> 190df2b0856
 
 https://github.com/Ranjeet-Kumar60/Flask-from-scratch/blob/main/basic_with_code/OUtput.gif
 
