@@ -42,6 +42,12 @@ Building structured URLs helps create a consistent and user-friendly navigation 
 - Each script can be executed individually to test its respective URL handling functionality.
 - Customize parameters within the scripts to experiment with different inputs and see how URLs are generated, redirected, and structured.
 
+## Visual Output
+
+To see a demonstration of the project in action, refer to the following file:
+
+- **[Output.gif](./Output.gif)**: An animated GIF showcasing the behavior of the application.
+
 ---
 
 This README provides an outline of the core functionalities implemented in this project, facilitating an understanding of URL handling techniques essential for modern web applications.

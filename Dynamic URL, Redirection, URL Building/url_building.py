@@ -1,40 +1,34 @@
-# Flask URL Handling: Dynamic URLs, Redirection, and URL Building
+import time
+from flask import Flask, redirect, url_for
 
-This project demonstrates how to handle dynamic URLs, URL redirection, and URL building in a Flask web application. Each component is implemented in separate Python files for easy understanding and modularity.
+app = Flask(__name__)
 
-## Table of Contents
+@app.route("/")
+def home():
+    return "<h1>Welcome to the Home page!</h1>"
 
-- [Overview](#overview)
-- [Files and Functionality](#files-and-functionality)
-  - [dynamic_url.py](#dynamic_urlpy)
-  - [url_redirection.py](#url_redirectionpy)
-  - [url_building.py](#url_buildingpy)
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-- [Contributions](#contributions)
-- [License](#license)
 
-## Overview
+@app.route("/pass/<sname>/<int:marks>")
+def passed(sname, marks):
+    return f"<h1>Congratz {sname.title()}, you've passed with {marks} marks!</h1>"
 
-In this project, we explore three key concepts:
 
-1. **Dynamic URLs**: Generating URLs that can change based on user input.
-2. **URL Redirection**: Redirecting users to specific pages based on conditions.
-3. **URL Building**: Constructing URLs dynamically within the application using Flask's `url_for` function.
+@app.route("/fail/<sname>/<int:marks>")
+def failed(sname, marks):
+    return f"<h1>Sorry {sname.title()}, you've failed with {marks} marks!</h1>"
 
-These concepts are commonly used in web applications to enhance user navigation, maintain functionality during site updates, and provide personalized responses.
 
-## Files and Functionality
+@app.route("/score/<name>/<int:num>")
+def score(name, num):
+    if num < 30:
+        time.sleep(1)
+        # redirect user to page 'fail'
+        return redirect(url_for("failed", sname=name, marks=num))
+    else:
+        time.sleep(1)
+        # redirect user to page 'pass'
+        return redirect(url_for("passed", sname=name, marks=num))
 
-### dynamic_url.py
 
-The `dynamic_url.py` file demonstrates the creation of dynamic URLs in a Flask application.
-
-- **Home Page** (`/home` or `/`): Displays a welcome message.
-- **Dynamic Welcome Page** (`/welcome/<name>`): Greets the user with a personalized message using their name from the URL.
-
-Example:
-```python
-@app.route("/welcome/<name>")
-def Lt(name):
-    return f"<h1>Hi {name.title()}, welcome here </h1>"
+if __name__ == "__main__":
+    app.run(debug=True)
