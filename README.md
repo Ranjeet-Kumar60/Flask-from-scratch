@@ -15,7 +15,4 @@ and production-ready approach to model deployment.
 1. Basic Web Application Building: Setting up Flask from scratch.
 2. Dynamic URLs, URL Redirection, and URL Building: Managing routes and creating dynamic web pages.
 3. Jinja Templating & Inheritance: Using Jinja2 for flexible and modular layouts.
-3. Web Forms & Input Validation: Creating and securing user input.
-4. Databases: Integrating SQLite for data management.
-5.Sessions and Cookies: Enhancing the user experience with session management.
-6. Model Training & Deployment: Integrating machine learning models into the web application.
+4. Web Forms & Input Validation: Creating and securing user input.
